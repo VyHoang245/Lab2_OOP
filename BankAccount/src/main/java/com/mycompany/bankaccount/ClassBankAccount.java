@@ -41,13 +41,14 @@ public class ClassBankAccount {
         System.out.print("Account number: ");
         accNum = obj.nextInt();
         obj.nextLine();
-        System.out.print("Custemer full name; ");
+        System.out.print("Custemer full name: ");
         name = obj.nextLine();
         System.out.print("Account balance: ");
         balance = obj.nextDouble();
     }
     public void Deposit(double deposit){
         balance+=deposit;
+        
     }
     public boolean Withdraw(double withdraw)
     {
